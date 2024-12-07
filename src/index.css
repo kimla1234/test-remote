@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css */
+@font-face {
+    font-family: 'Kontumruy Pro';
+    src: url('./fonts/KantumruyPro-VariableFont_wght.ttf') format('truetype'),
+         url('./fonts/KantumruyPro-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('./fonts/NotoSansKhmer-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kontumruy Pro';
+    src: url('./fonts/KantumruyPro-Bold.ttf') format('truetype'); /* Define Bold version */
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
