@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import path from 'path';
+const path = require('path');
 export default {
   content: [
     path.resolve(__dirname, './src/**/*.{html,js,ts,jsx,tsx}'),
