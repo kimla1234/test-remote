@@ -8,7 +8,7 @@ export default function Feature() {
   return (
     <section className="max-w-8xl mx-auto lg:my-4 md:my-4 my-4">
         <div className="container px-4 lg:py-12 md:py-12 py-3">
-          <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold text-center lg:mb-12 md:m-12 mb-4 text-textprimary">
+          <h1 className="lg:text-5xl md:text-3xl text-xl font-bold text-center lg:mb-12 md:m-12 mb-4 text-textprimary">
             តើ<span className="text-emerald-500">នាំផ្លូវ</span>សម្រាប់អ្នកណា?
           </h1>
 
@@ -49,13 +49,13 @@ function FeatureCard({ image, title, description }: FeatureCardProps) {
           <img src={image} alt={title} width={200} height={200} className="object-contain w-full h-full" />
         </div>
         {/* Content */}
-        <div className="lg:p-4 md:p-0 p-2 rounded-lg lg:w-90 md:w-78 w-90">
-          <h2 className="lg:text-3xl  md:text-2xl text-xl font-semibold mb-3 text-textprimary">
+        <div className="lg:p-4 md:p-0 p-2 rounded-lg lg:w-90 md:w-78   w-full  ">
+          <h2 className="lg:text-3xl md:text-3xl text-lg font-semibold mb-3 text-textprimary whitespace-nowrap">
             {title}
           </h2>
-          <p className="text-gray-600 lg:text-xl md:text-xl text-md leading-relaxed">
+          <div className="md:text-lg text-md text-center lg:text-lg lg:w-[220px] md:w-[220px] w-[300px] text-textprimary  leading-relaxed">
             {description}
-          </p>
+          </div>
         </div>
       </div>
     );

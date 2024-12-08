@@ -7,9 +7,9 @@ export default function FooterHomePage() {
       <div className=" bg-slate-50 w-full pt-9 flex border-t  justify-center">
         <div className="lg:w-[80%] md:w-[90%] w-[90%] ">
           <div className="flex flex-col justify-between  md:flex-row ">
-            <div className="lg:w-[316px] md:w-[216px]  ">
+            <div className="lg:w-[300px] md:w-[216px]  ">
               <p className="text-[18px] font-normal text-textprimary">
-                <h1 className="text-textprimary font-semibold text-2xl">មាតិការ</h1>
+                <h1 className="text-textprimary font-semibold lg:text-2xl md:text-xl">មាតិការ</h1>
               </p>
               <ul>
                 <li className="mt-[15px]">
@@ -25,7 +25,7 @@ export default function FooterHomePage() {
                     className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/our-tutors"
                   >
-                    សកលវិទ្យាល័យ
+                    សាកលវិទ្យាល័យ
                   </a>
                 </li>
                 <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
@@ -56,7 +56,7 @@ export default function FooterHomePage() {
             </div>
             <div className="lg:w-[316px] md:w-[400px]">
               <p className="text-[16px] font-medium text-textprimary">
-                <h1 className="text-textprimary font-semibold  text-2xl">សកលវិទ្យាល័យល្បីៗ</h1>
+                <h1 className="text-textprimary font-semibold  lg:text-2xl md:text-xl">សាកលវិទ្យាល័យល្បីៗ</h1>
               </p>
               <ul>
                 <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
@@ -64,7 +64,7 @@ export default function FooterHomePage() {
                     className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/"
                   >
-                    សកលវិទ្យាល័យភូមិន្ទភ្នំពពេញ
+                    សាកលវិទ្យាល័យភូមិន្ទភ្នំពពេញ
                   </a>
                 </li>
                 <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
@@ -80,7 +80,7 @@ export default function FooterHomePage() {
                     className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/become-a-tutor"
                   >
-                    សកសវិទ្យាល័យភូមិន្ទវិចិត្រសិល្បៈ
+                    សាកលវិទ្យាល័យភូមិន្ទវិចិត្រសិល្បៈ
                   </a>
                 </li>
                 <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
@@ -88,7 +88,7 @@ export default function FooterHomePage() {
                     className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/plans-and-pricing"
                   >
-                    សកសវិទ្យាល័យន័រតុន
+                    សាកលវិទ្យាល័យន័រតុន
                   </a>
                 </li>
                 <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
@@ -96,13 +96,13 @@ export default function FooterHomePage() {
                     className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/terms-and-conditions"
                   >
-                    សកសវិទ្យាល័យភូមិន្ទនីតិសាស្ត្រ
+                    សាកលវិទ្យាល័យភូមិន្ទនីតិសាស្ត្រ
                   </a>
                 </li>
               </ul>
             </div>
             <div className="lg:w-[316px] md:w-[400px] ">
-              <div className="text-textprimary  font-bold text-2xl">ព័ត៌មានទំនាក់ទំនង</div>
+              <div className="text-textprimary  font-bold lg:text-2xl md:text-xl">ព័ត៌មានទំនាក់ទំនង</div>
               <div className="mt-[23px] flex">
                 <div className="flex h-[38px]  w-[38px] items-center justify-center rounded-[75%]">
                 <MdOutlinePhoneInTalk className="w-6 h-6 text-green-600"  />
@@ -154,7 +154,7 @@ export default function FooterHomePage() {
             </div>
             <div className="mt-6 md:w-[316px] lg:block md:hidden hidden w-full flex-col justify-between text-textprimary sm:flex-row md:mt-0 md:max-w-[341px]">
               <div className="mt-6 flex flex-col gap-4 sm:mt-0">
-                <p className="text-deutziawhite font-bold text-2xl">
+                <p className="text-deutziawhite font-bold lg:text-2xl md:text-xl">
                   ទាញយកកម្មវិធី
                 </p>
                 <div className="flex gap-4 sm:flex-col">

@@ -3,9 +3,9 @@ import { Share2, ArrowUp } from "lucide-react";
 export default function Feedback() {
   return (
     <div className=" bg-white w-full h-96 mx-auto p-6 flex justify-center flex-col md:flex-row items-start gap-8">
-      <div className=" flex lg:w-[80%] md:w-[90%] w-[90%]  ">
+      <div className=" flex lg:w-[80%] md:w-[97%] w-[90%]  ">
         {/* Left side illustration */}
-        <div className="w-full md:w-1/2 ">
+        <div className="w-full md:w-1/2  hidden lg:block md:block ">
           <img
             src="../../assets/feedbaack.jpg"
             alt="Feedback illustration"
@@ -16,12 +16,12 @@ export default function Feedback() {
         </div>
 
         {/* Right side content */}
-        <div className="w-full md:w-1/2 space-y-6">
+        <div className="w-full md:w-1/2  space-y-6 ">
           <div className="space-y-2">
-            <h1 className="text-2xl font-bold text-textprimary mb-4">
+            <h1 className="lg:text-2xl md:text-2xl text-lg font-bold text-textprimary mb-4">
               មតិកែលម្អផ្តល់, ជាការកែចម្រើនថ្មី
             </h1>
-            <p className="text-slate-600 text-lg">
+            <p className="text-slate-600 lg:text-lg md:text-lg text-md leading-loose">
               អរគុណសម្រាប់ការចូលរួមព្រឹត្តិការណ៍យើងខ្ញុំ!
               សូមជួយផ្តល់មតិនិងយោបល់របស់អ្នកដើម្បីធ្វើឲ្យព្រឹត្តិការណ៍បន្ទាប់កាន់តែប្រសើរ។
             </p>
@@ -32,7 +32,7 @@ export default function Feedback() {
             className="w-full min-h-[120px] p-2 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
           />
 
-          <button className="w-full py-2 px-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-md transition duration-300 ease-in-out">
+          <button className="w-full lg:text-lg md:text-lg text-base py-2 px-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-md transition duration-300 ease-in-out">
             ផ្ញើមតិកែលម្អ
           </button>
 

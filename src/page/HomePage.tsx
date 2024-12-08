@@ -16,14 +16,14 @@ export default function HomePage() {
         <Feature />
       </section>
       <section className="flex  my-4 justify-center mb-2">
-        <div className="lg:w-[86%] md:w-[90%] w-[90%]">
+        <div className="lg:w-[80%] md:w-[90%] w-[90%]">
           <div className="mt-8  border-l-8 border-textprimary">
-            <div className="lg:text-4xl md:text-4xl text-xl font-semibold mt-2 mb-1 ml-4 text-textprimary">
+            <div className="lg:text-4xl md:text-3xl text-xl font-bold mt-2 mb-1 ml-4 text-textprimary">
               ព័ត៌មាន និង ព្រឹត្តិការណ៍
             </div>
           </div>
           <div className="flex justify-between mb-4">
-            <div className=" mt-4 text-xl w-full text-slate-700">
+            <div className=" mt-4 lg:text-xl md:text-xl text-md w-full text-slate-700 leading-loose">
               ស្វែងរកព័ត៌មានអាហារូបករណ៍ សិក្ខាសាលា
               និងពិព័រណ៍ការងារថ្មីៗជាមួយអនុវត្តន៍ចុងក្រោយ
               សម្រាប់ការបង្កើតនូវឱកាសសិក្សា និងបន្ដអភិវឌ្ឍន៍ការងារអនាគត។
@@ -33,7 +33,7 @@ export default function HomePage() {
           </div>
           <NewsEventHomePage />
           <div className=" flex justify-end items-center mt-6 ">
-            <div className="text-xl text-primary  font-kontumruy ">
+            <div className="text-md md:text-xl lg:text-xl text-primary  font-kontumruy ">
               ផ្សេងៗទៀត
             </div>
             <div className=" ">
@@ -43,17 +43,17 @@ export default function HomePage() {
         </div>
       </section>
       <section className="flex justify-center">
-        <div className="lg:w-[86%] md:w-[90%] w-[90%]">
+        <div className="lg:w-[80%] md:w-[90%] w-[90%]">
           <div className="flex justify-between items-center mb-2">
             <div className="mt-8  border-l-8 border-textprimary flex justify-start items-center mbb-2">
-              <div className="lg:text-4xl md:text-4xl text-xl font-bold h-10 mt-2 ml-4 text-textprimary">
+              <div className="lg:text-4xl md:text-3xl text-lg font-bold h-10 mt-2 ml-4 text-textprimary">
                 សកលវិទ្យាល័យដែលមានប្រជាប្រិយភាព
               </div>
             </div>
           </div>
           <CardUniversity limit={4} />
           <div className=" flex justify-end items-center mt-6 ">
-          <div className="text-xl text-primary  font-kontumruy ">ផ្សេងៗទៀត</div>
+          <div className="lg:text-xl md:text-xl text-md text-primary  font-kontumruy ">ផ្សេងៗទៀត</div>
           <div className=" ">
             <BiRightArrowAlt className="text-2xl ml-2 text-primary" />
           </div>

@@ -6,7 +6,7 @@ import { FaRegBell } from "react-icons/fa";
 // Your navigation links
 const navLinks = [
   { href: "/", label: "ទំព័រដើម" },
-  { href: "/university", label: "គ្រឹស្ថានសិក្សា" },
+  { href: "/university", label: "សកល" },
   { href: "/jobs", label: "ការងារ" },
   { href: "/new", label: "ព័ត៌មាន" },
   { href: "/about-us", label: "អំពីយើង" },
@@ -37,7 +37,7 @@ export default function NavbarPage() {
   return (
     <div className="w-full bg-slate-50">
       <header
-        className={`flex items-center justify-between py-4 px-4 md:px-6 lg:px-8 mx-auto w-full fixed top-0 left-0 z-50 bg-white shadow-md transition-all duration-300 ${
+        className={`flex items-center justify-between py-4 px-4 md:px-6 lg:px-6 mx-auto w-full fixed top-0 left-0 z-50 bg-white shadow-md transition-all duration-300 ${
           isSticky ? "bg-opacity-90" : "bg-opacity-100"
         }`}
       >
@@ -59,40 +59,42 @@ export default function NavbarPage() {
               />
             </div>
           )}
-
-          {/* Navigation Links */}
-          <nav className="hidden md:flex space-x-6 lg:space-x-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                to={link.href}
-                className={`text-base lg:text-lg ${
-                  pathname === link.href
-                    ? "text-green-700 font-bold border-green-700"
-                    : "text-gray-800 hover:text-green-700"
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
         </div>
 
         {/* Language Selector and Sign-in */}
         <div className="hidden md:block lg:flex items-center space-x-6">
-          {/* Sign in button */}
-          <div className="flex space-x-4">
-            <div className="w-[120px] flex justify-end items-center space-x-4">
-              <div className="rounded-full border border-primary">
-                <FaRegBell className="text-xl mr-2 ml-2 mt-2 mb-2" />
+          {/* Navigation Links */}
+          <div className="flex justify-end items-center   ">
+            <nav className="hidden md:flex  w-[350px]  space-x-6 md:space-x-0 lg:space-x-8">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  className={`text-base md:text-md w-[70px]  lg:text-lg whitespace-nowrap space-x-4  ${
+                    pathname === link.href
+                      ? "text-green-600 font-medium"
+                      : "text-gray-800 hover:text-green-600"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+
+            {/* Sign in button */}
+            <div className="flex space-x-4 lg:w-full md:w-[200px]  justify-end">
+              <div className="w-[120px] flex justify-end items-center space-x-4">
+                <div className="rounded-full border border-primary">
+                  <FaRegBell className="text-xl mr-2 ml-2 mt-2 mb-2" />
+                </div>
               </div>
+              <Link
+                to="/login"
+                className="bg-emerald-500 text-white text-base text-center lg:text-lg rounded-xl lg:px-5 lg:py-2 md:px-2 md:py-1 px-5 py-2 lg:w-20 md:w-32 w-32"
+              >
+                ចុះឈ្មោះ
+              </Link>
             </div>
-            <Link
-              to="/login"
-              className="bg-emerald-500 text-white text-base lg:text-lg rounded-xl lg:px-5 lg:py-2 md:px-4 md:py-1 px-5 py-2"
-            >
-              ចុះឈ្មោះ
-            </Link>
           </div>
         </div>
 

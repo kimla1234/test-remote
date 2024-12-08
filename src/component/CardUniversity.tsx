@@ -1,7 +1,7 @@
 export default function CardUniversity({ limit = 8 }: { limit?: number }) {
   const universities = [
     {
-      name: "សាកសវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
+      name: "សាកលវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
@@ -9,7 +9,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       link: "#",
     },
     {
-      name: "សាកសវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
+      name: "សាកលវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
@@ -17,7 +17,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       link: "#",
     },
     {
-      name: "សាកសវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
+      name: "សាកលវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
@@ -25,7 +25,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       link: "#",
     },
     {
-      name: "សាកសវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
+      name: "សាកលវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
@@ -33,7 +33,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       link: "#",
     },
     {
-      name: "សាកសវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
+      name: "សាកលវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
@@ -41,7 +41,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       link: "#",
     },
     {
-      name: "សាកសវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
+      name: "សាកលវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
@@ -49,7 +49,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       link: "#",
     },
     {
-      name: "សាកសវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
+      name: "សាកលវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
@@ -57,7 +57,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       link: "#",
     },
     {
-      name: "សាកសវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
+      name: "សាកលវិទ្យាល័យ ភូមិន្ទភ្នំពេញ",
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
@@ -75,7 +75,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
         <div key={index}>
           <a
             href={university.link}
-            className="flex lg:p-6 space-x-6 md:p-6 p-2 lg:h-50 md:h-full w-full flex-row items-center bg-white border border-gray-100 shadow-sm rounded-2xl  md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="flex lg:p-6 lg:space-x-6 md:space-x-6 space-x-3 md:p-6 p-2 lg:h-50 h-36 md:h-full w-full flex-row items-center bg-white border border-gray-100 shadow-sm rounded-2xl  md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
             <div className=" flex justify-center items-center">
               <img
@@ -87,16 +87,16 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
               />
             </div>
             <div className="flex flex-col justify-between w-full h-auto lg:p-2 md:p-2 p-0 leading-normal">
-              <div className="lg:mb-2 md:mbb-2 mb-1 text-3xl font-medium tracking-tight text-textprimary dark:text-white">
+              <div className="lg:mb-2 md:mb-2 mb-1 lg:text-2xl md:text-2xl text:3xl font-semibold tracking-tight text-textprimary dark:text-white">
                 {university.name}
               </div>
-              <div className="lg:mb-2 md:mbb-2 mb-1 text-sm md:text-xl lg:text-xl  text-gray-600">
+              <div className="lg:mb-2 md:mb-2 mb-1 text-sm md:text-xl lg:text-xl  text-gray-600">
                 {university.englishName}
               </div>
-              <p className="lg:mb-2 md:mbb-2 mb-1 text-sm md:text-lg lg:text-lg font-normal text-gray-600 dark:text-gray-400">
+              <p className="lg:mb-2 md:mb-2 mb-1 text-sm md:text-lg lg:text-lg font-normal text-gray-600 dark:text-gray-400">
                 {university.address}
               </p>
-              <div className="lg:mb-2 md:mbb-2 mb-2 text-sm md:text-lg block md:hidden lg:hidden  lg:text-lg text-textprimary">
+              <div className="lg:mb-2 md:mb-2 mb-2 text-sm md:text-lg block md:hidden lg:hidden  lg:text-lg text-textprimary">
                 ជំនាញពេញនិយម ៖
                 <span className="text-sm md:text-lg lg:text-lg text-secondary">
                   {university.major}
