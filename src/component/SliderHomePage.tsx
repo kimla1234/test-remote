@@ -1,8 +1,8 @@
 export default function SliderHomePage() {
   return (
-    <div id="gallery" className="relative w-full z-10" data-carousel="slide">
+    <div id="gallery" className="relative w-full z-10 bg-green-400" data-carousel="slide">
       {/* Carousel wrapper */}
-      <div className="relative h-screen bg-black  overflow-hidden ">
+      <div className="relative w-full lg:h-screen md:w-full   md:h-[440px] h-[300px] bg-black  overflow-hidden ">
         {/* Item 1 */}
         <div
           className="hidden  opacity-50 duration-3200 ease-in-out"
@@ -10,7 +10,7 @@ export default function SliderHomePage() {
         >
           <img
             src="https://www.aupp.edu.kh/wp-content/uploads/Students-Life.jpg"
-            className="absolute block w-full  h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            className="absolute block w-full lg:w-full md:w-full  lg:h-full md:h-[440px] h-[300px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt=""
           />
         </div>
@@ -21,7 +21,7 @@ export default function SliderHomePage() {
         >
           <img
             src="https://rupp.edu.kh/iro/image_banner/mainrupp2.jpg"
-            className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            className="absolute block w-full lg:w-full md:w-full  lg:h-full md:h-[440px] h-[300px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt=""
           />
         </div>
@@ -32,7 +32,7 @@ export default function SliderHomePage() {
         >
           <img
             src="https://foodstem-euproject.itc.edu.kh/wp-content/uploads/2021/05/ITC-V2-1024x576.jpg"
-            className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            className="absolute block w-full lg:w-full md:w-full  lg:h-full md:h-[440px] h-[300px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt=""
           />
         </div>
@@ -43,7 +43,7 @@ export default function SliderHomePage() {
         >
           <img
             src="https://www.aub.edu.kh/tc/assets/image/banner-A-1.jpg"
-            className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            className="absolute block w-full lg:w-full md:w-full  lg:h-full md:h-[440px] h-[300px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt=""
           />
         </div>
@@ -54,7 +54,7 @@ export default function SliderHomePage() {
         >
           <img
             src="https://foodstem-euproject.itc.edu.kh/wp-content/uploads/2021/05/Web-URDSE2-1024x576.jpg"
-            className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            className="absolute block w-full lg:w-full md:w-full  lg:h-full md:h-[440px] h-[300px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt=""
           />
         </div>
@@ -108,33 +108,33 @@ export default function SliderHomePage() {
           <span className="sr-only">Next</span>
         </span>
       </button>
-      <div className=" absolute inset-10 flex  items-center justify-start  z-50 md:p-6 lg:p-8 ml-4 sm:ml-6 md:ml-8 lg:ml-12">
-        <div className="flex flex-col items-start space-y-2 sm:space-y-3 md:space-y-4 lg:space-y-2">
+      <div className=" absolute inset-10  flex  items-center justify-start  z-50 md:p-6 lg:p-8 ml-4 sm:ml-6 md:ml-8 lg:ml-12">
+        <div className="flex flex-col items-start space-y-2 sm:space-y-5 md:space-y-2 lg:space-y-2">
           <h1
             data-aos="fade-up-right"
-            className="text-2xl mb-6 text-white sm:text-3xl md:text-4xl lg:text-6xl font-bold leading-tight sm:leading-tight md:leading-snug lg:leading-snug aos-init aos-animate"
+            className="text-2xl mb-6 lg:mt-0 md:mt-4 mt-2 text-white sm:text-3xl md:text-4xl lg:text-6xl font-bold leading-tight sm:leading-tight md:leading-snug lg:leading-snug aos-init aos-animate"
           >
-            ស្វាគមន៍មកកាន់ UniGuide!
+            ស្វាគមន៍មកកាន់ សាកលវិទ្យាល័យ!
           </h1>
           <h1
             data-aos="fade-up-right "
-            className="text-2xl   text-white sm:text-3xl md:text-4xl lg:text-2xl  leading-tight sm:leading-tight md:leading-snug lg:leading-snug aos-init aos-animate"
+            className="text-2xl   text-white sm:text-3xl md:text-2xl lg:text-2xl    leading-tight sm:leading-tight md:leading-snug lg:leading-snug aos-init aos-animate"
           >
             នៅទីនេះ អ្នកអាចស្វែងរកព័ត៌មានលម្អិតអំពីសកលវិទ្យាល័យនានា
           </h1>
           <h1
             data-aos="fade-up-right "
-            className="text-2xl   text-white sm:text-3xl md:text-4xl lg:text-2xl  leading-tight sm:leading-tight md:leading-snug lg:leading-snug aos-init aos-animate"
+            className="text-2xl   text-white sm:text-3xl md:text-2xl lg:text-2xl  leading-tight sm:leading-tight md:leading-snug lg:leading-snug aos-init aos-animate"
           >
             និងជម្រើសដែលល្អបំផុតសម្រាប់សិក្សា។
           </h1>
           <div>
             <div className="rounded-md shadow mt-4 ">
               <a
-                className="w-full flex items-center justify-center px-8 py-3 border border-slate-500 text-base leading-6 font-medium rounded-md text-white bg-blue-900 hover:bg-blue-600 hover:text-white focus:ring ring-offset-2 ring-pink-400 focus:outline-none transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                className="w-full flex items-center justify-center px-8 py-3 border border-slate-500 text-base leading-6 font-medium rounded-md text-white bg-green-500 hover:bg-blue-600 hover:text-white focus:ring ring-offset-2 ring-pink-400 focus:outline-none transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 href=""
               >
-                Get started
+                តោះចាប់ផ្តើម
               </a>
             </div>
           </div>

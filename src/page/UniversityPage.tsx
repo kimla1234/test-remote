@@ -3,11 +3,11 @@ import { BiRightArrowAlt } from "react-icons/bi";
 
 export default function UniversityPage() {
   return (
-    <div>
-      <div className="relative min-h-[300px]  w-full">
+    <div className=" ">
+      <div className="relative min-h-[300px]  w-full ">
         {/* Background with overlay */}
         <div
-          className="absolute inset-0 bg-cover bg-center w-full h-96"
+          className="absolute inset-0 bg-cover bg-center w-full  h-96"
           style={{
             backgroundImage: 'url("../../src/assets/bg-uni.jpg")',
           }}
@@ -59,7 +59,7 @@ export default function UniversityPage() {
           <div className="flex justify-between items-center">
             <div className="mt-8   border-blue-800 flex justify-start items-center">
               <div className="text-xl font-bold h-10 mt-2  text-blue-900">
-                សកលវិទ្យាល័យ
+                សាកលវិទ្យាល័យ
               </div>
             </div>
             <div className=" flex justify-start items-center">

@@ -5,48 +5,48 @@ export default function FooterHomePage() {
   return (
     <div>
       <div className=" bg-slate-50 w-full pt-9 flex border-t  justify-center">
-        <div className="w-[80%] ">
+        <div className="lg:w-[80%] md:w-[90%] w-[90%] ">
           <div className="flex flex-col justify-between  md:flex-row ">
-            <div className="md:w-[316px]  ">
-              <p className="text-[18px] font-normal text-blue-900">
-                <h1 className="text-blue-900 font-semibold text-2xl">មាតិការ</h1>
+            <div className="lg:w-[316px] md:w-[216px]  ">
+              <p className="text-[18px] font-normal text-textprimary">
+                <h1 className="text-textprimary font-semibold text-2xl">មាតិការ</h1>
               </p>
               <ul>
                 <li className="mt-[15px]">
                   <a
-                    className="text-deutziawhite text-blue-900  hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
+                    className="text-deutziawhite text-textprimary  hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/"
                   >
                     ទំព័រដើម
                   </a>
                 </li>
-                <li className="mt-[15px]">
+                <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
                   <a
-                    className="text-deutziawhite text-blue-900 hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
+                    className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/our-tutors"
                   >
                     សកលវិទ្យាល័យ
                   </a>
                 </li>
-                <li className="mt-[15px]">
+                <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
                   <a
-                    className="text-deutziawhite text-blue-900 hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
+                    className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/become-a-tutor"
                   >
                     អាហារូបករណ៍
                   </a>
                 </li>
-                <li className="mt-[15px]">
+                <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
                   <a
-                    className="text-deutziawhite text-blue-900 hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
+                    className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/plans-and-pricing"
                   >
                     ព័ត៌មាន
                   </a>
                 </li>
-                <li className="mt-[15px]">
+                <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
                   <a
-                    className="text-deutziawhite text-blue-900 hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
+                    className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/terms-and-conditions"
                   >
                     អំពីយើង
@@ -54,46 +54,46 @@ export default function FooterHomePage() {
                 </li>
               </ul>
             </div>
-            <div className="md:w-[316px] ">
-              <p className="text-[16px] font-medium text-blue-900">
-                <h1 className="text-blue-900 font-semibold  text-2xl">សកលវិទ្យាល័យល្បីៗ</h1>
+            <div className="lg:w-[316px] md:w-[400px]">
+              <p className="text-[16px] font-medium text-textprimary">
+                <h1 className="text-textprimary font-semibold  text-2xl">សកលវិទ្យាល័យល្បីៗ</h1>
               </p>
               <ul>
-                <li className="mt-[15px]">
+                <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
                   <a
-                    className="text-deutziawhite text-blue-900 hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
+                    className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/"
                   >
                     សកលវិទ្យាល័យភូមិន្ទភ្នំពពេញ
                   </a>
                 </li>
-                <li className="mt-[15px]">
+                <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
                   <a
-                    className="text-deutziawhite text-blue-900 hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
+                    className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/our-tutors"
                   >
                     វិទ្យាស្ថានចេ្ចកវិទ្យាកម្ពុជា
                   </a>
                 </li>
-                <li className="mt-[15px]">
+                <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
                   <a
-                    className="text-deutziawhite text-blue-900 hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
+                    className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/become-a-tutor"
                   >
                     សកសវិទ្យាល័យភូមិន្ទវិចិត្រសិល្បៈ
                   </a>
                 </li>
-                <li className="mt-[15px]">
+                <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
                   <a
-                    className="text-deutziawhite text-blue-900 hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
+                    className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/plans-and-pricing"
                   >
                     សកសវិទ្យាល័យន័រតុន
                   </a>
                 </li>
-                <li className="mt-[15px]">
+                <li className="lg:mt-[15px] md:mt-[10px] mt-[23px]">
                   <a
-                    className="text-deutziawhite text-blue-900 hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
+                    className="text-deutziawhite text-textprimary hover:text-deutziawhite/80 font-inter text-[16px] font-normal hover:font-semibold"
                     href="/terms-and-conditions"
                   >
                     សកសវិទ្យាល័យភូមិន្ទនីតិសាស្ត្រ
@@ -101,8 +101,8 @@ export default function FooterHomePage() {
                 </li>
               </ul>
             </div>
-            <div className="md:w-[316px]">
-              <div className="text-blue-900 font-bold text-2xl">ព័ត៌មានទំនាក់ទំនង</div>
+            <div className="lg:w-[316px] md:w-[400px] ">
+              <div className="text-textprimary  font-bold text-2xl">ព័ត៌មានទំនាក់ទំនង</div>
               <div className="mt-[23px] flex">
                 <div className="flex h-[38px]  w-[38px] items-center justify-center rounded-[75%]">
                 <MdOutlinePhoneInTalk className="w-6 h-6 text-green-600"  />
@@ -110,49 +110,49 @@ export default function FooterHomePage() {
                 <div className="ml-[18px]">
                   <a
                     href="tel:+911800123444"
-                    className="font-Inter text-[16px] font-medium text-blue-900"
+                    className="font-Inter text-[16px] font-medium text-textprimary"
                   >
                     +91 1800123444
                   </a>
-                  <p className="font-Inter text-[16px] font-medium text-blue-900">
+                  <p className="font-Inter text-[16px] font-medium text-textprimary">
                     Support Number
                   </p>
                 </div>
               </div>
-              <div className="mt-[23px] flex">
+              <div className="lg:mt-[23px] md:mt-[10px] mt-[23px] flex">
                 <div className="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
                 <MdOutlineMarkEmailUnread className="w-6 h-6 text-green-600"  />
                 </div>
                 <div className="ml-[18px]">
                   <a
                     href="mailto:help@lorem.com"
-                    className="font-Inter text-[16px] font-medium text-blue-900"
+                    className="font-Inter text-[16px] font-medium text-textprimary"
                   >
                     help@lorem.com
                   </a>
-                  <p className="font-Inter text-[16px] font-medium text-blue-900">
+                  <p className="font-Inter text-[16px] font-medium text-textprimary">
                     Support Email
                   </p>
                 </div>
               </div>
-              <div className="mt-[23px] flex">
+              <div className="lg:mt-[23px] md:mt-[10px] mt-[23px] flex">
                 <div className="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
                 <RiMapPinLine className="w-6 h-6 text-green-600" />
                 </div>
                 <div className="ml-[18px]">
                   <a
                     href="mailto:help@lorem.com"
-                    className="font-Inter text-[16px] font-medium text-blue-900"
+                    className="font-Inter text-[16px] font-medium text-textprimary"
                   >
                     Sub Nerul, Mumbia, India, 
                   </a>
-                  <p className="font-Inter text-[16px] font-medium text-blue-900">
+                  <p className="font-Inter text-[16px] font-medium text-textprimary">
                   123456 Address
                   </p>
                 </div>
               </div>
             </div>
-            <div className="mt-6 md:w-[316px] flex w-full flex-col justify-between text-blue-900 sm:flex-row md:mt-0 md:max-w-[341px]">
+            <div className="mt-6 md:w-[316px] lg:block md:hidden hidden w-full flex-col justify-between text-textprimary sm:flex-row md:mt-0 md:max-w-[341px]">
               <div className="mt-6 flex flex-col gap-4 sm:mt-0">
                 <p className="text-deutziawhite font-bold text-2xl">
                   ទាញយកកម្មវិធី
@@ -218,7 +218,7 @@ export default function FooterHomePage() {
           </div>
           <hr className=" text-2xl mt-4 mb-2" />
           <div className="flex justify-center items-center mb-2 text-[16px]">
-          <div className=" text-blue-900 text-[16px]">Copyright © 2024 UniGuide</div>
+          <div className=" text-textprimary text-[16px]">Copyright © 2024 សាកលវិទ្យាល័យ</div>
           </div> 
         </div>
       </div>

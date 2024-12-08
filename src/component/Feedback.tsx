@@ -3,7 +3,7 @@ import { Share2, ArrowUp } from "lucide-react";
 export default function Feedback() {
   return (
     <div className=" bg-white w-full h-96 mx-auto p-6 flex justify-center flex-col md:flex-row items-start gap-8">
-      <div className=" flex w-[80%]  ">
+      <div className=" flex lg:w-[80%] md:w-[90%] w-[90%]  ">
         {/* Left side illustration */}
         <div className="w-full md:w-1/2 ">
           <img
@@ -18,7 +18,7 @@ export default function Feedback() {
         {/* Right side content */}
         <div className="w-full md:w-1/2 space-y-6">
           <div className="space-y-2">
-            <h1 className="text-2xl font-bold text-slate-800 mb-4">
+            <h1 className="text-2xl font-bold text-textprimary mb-4">
               មតិកែលម្អផ្តល់, ជាការកែចម្រើនថ្មី
             </h1>
             <p className="text-slate-600 text-lg">
