@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+import path from 'path';
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/flowbite/**/*.js"
+    path.resolve(__dirname, './src/**/*.{html,js,ts,jsx,tsx}'),
   ],
   theme: {
     extend: {
