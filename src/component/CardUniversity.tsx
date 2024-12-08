@@ -5,7 +5,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
-      logo: "../../src/assets/logoUniversity/rupp.png",
+      logo: "../../assets/logoUniversity/rupp.png",
       link: "#",
     },
     {
@@ -13,7 +13,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
-      logo: "../../src/assets/logoUniversity/rupp.png",
+      logo: "../../assets/logoUniversity/rupp.png",
       link: "#",
     },
     {
@@ -21,7 +21,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
-      logo: "../../src/assets/logoUniversity/rupp.png",
+      logo: "../../assets/logoUniversity/rupp.png",
       link: "#",
     },
     {
@@ -29,7 +29,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
-      logo: "../../src/assets/logoUniversity/rupp.png",
+      logo: "../../assets/logoUniversity/rupp.png",
       link: "#",
     },
     {
@@ -37,7 +37,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
-      logo: "../../src/assets/logoUniversity/rupp.png",
+      logo: "../../assets/logoUniversity/rupp.png",
       link: "#",
     },
     {
@@ -45,7 +45,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
-      logo: "../../src/assets/logoUniversity/rupp.png",
+      logo: "../../assets/logoUniversity/rupp.png",
       link: "#",
     },
     {
@@ -53,7 +53,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
-      logo: "../../src/assets/logoUniversity/rupp.png",
+      logo: "../../assets/logoUniversity/rupp.png",
       link: "#",
     },
     {
@@ -61,7 +61,7 @@ export default function CardUniversity({ limit = 8 }: { limit?: number }) {
       englishName: "Royal University of Phnom Penh",
       address: "សង្កាត់ទឹកល្អក់១ ខណ្ឌទួលគោក",
       major: "ព័ត៌មានវិទ្យា",
-      logo: "../../src/assets/logoUniversity/rupp.png",
+      logo: "../../assets/logoUniversity/rupp.png",
       link: "#",
     },
   ];

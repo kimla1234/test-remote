@@ -16,21 +16,21 @@ export default function Feature() {
           <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-8 md:gap-6 gap-0">
             {/* Feature 1: Student */}
             <FeatureCard
-              image="../../src/assets/feature-01.png"
+              image="../../assets/feature-01.png"
               title="សិស្សវិទ្យាល័យ"
               description="សិស្សនិស្សិតអាចស្វែងរកលើកិច្ចការ ចំណាប់អារម្មណ៍ខ្លួននិងជំនាញដែលខ្លួនចង់ធ្វើបន្តទៅ"
             />
 
             {/* Feature 2: Undergraduate */}
             <FeatureCard
-              image="../../src/assets/feature-02.png"
+              image="../../assets/feature-02.png"
               title="សិស្សសាកលវិទ្យាល័យ"
               description="សិស្សសកលនិស្សិតអាចរៀបចំ ស្វែងរកកំណត់ត្រូវដើម្បីនិស្សិតខ្លួន"
             />
 
             {/* Feature 3: Business Professional */}
             <FeatureCard
-              image="../../src/assets/feature-03.png"
+              image="../../assets/feature-03.png"
               title="បុគ្គលិកកំពុងធ្វើការងារ"
               description="បុគ្គលិកដែលចង់មានបទពិសោធន៍ផ្នែកផ្សេងៗ និងដែលចង់ត្រូវនឹងជំនាញដែលខ្លួនកំពុងធ្វើ"
             />

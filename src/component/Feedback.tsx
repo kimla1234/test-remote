@@ -7,7 +7,7 @@ export default function Feedback() {
         {/* Left side illustration */}
         <div className="w-full md:w-1/2 ">
           <img
-            src="../../src/assets/feedbaack.jpg"
+            src="../../assets/feedbaack.jpg"
             alt="Feedback illustration"
             width={40}
             height={40}
